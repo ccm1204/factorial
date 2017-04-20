@@ -9,6 +9,8 @@ public class Factorial_capsa_negra {
 		return n * factorial(n - 1);
 	}
 
+	// markos cambia s coasas
+	
 	private static int factorialIterativo( int n ) {
 		int res=1;
 		for(int i=2; i<=n; i++) {
