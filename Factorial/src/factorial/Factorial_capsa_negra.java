@@ -9,7 +9,7 @@ public class Factorial_capsa_negra {
 		return n * factorial(n - 1);
 	}
 
-	// markos cambia s coasas
+	// markos cambia s coasas 2 veses
 	
 	private static int factorialIterativo( int n ) {
 		int res=1;
@@ -17,7 +17,7 @@ public class Factorial_capsa_negra {
 			res=res*i;
 		}
 		return res;
-	}
+	}//asdfasdf
 
 	public static void main(String[] args){
 		System.out.println(factorial(Integer.parseInt(args[0])));
